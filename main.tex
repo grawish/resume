@@ -1,0 +1,294 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+%% AltaCV uses the fontawesome5 and packages.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1cm,bottom=1.5cm,columnsep=1cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+\usepackage{multicol}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % If using pdflatex:
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  % \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Change the colours if you want to
+\definecolor{LightGrey}{HTML}{505050}
+\definecolor{Black}{HTML}{000000}
+\definecolor{Grey}{HTML}{444444}
+\colorlet{name}{Black}
+\colorlet{textbf}{Black}
+\colorlet{tagline}{Black}
+\colorlet{heading}{Black}
+\colorlet{headingrule}{Grey}
+\colorlet{subheading}{Black}
+\colorlet{accent}{Black}
+\colorlet{emphasis}{Grey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries\textbf}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+\input{pubs-authoryear}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+% \input{pubs-num}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+\begin{document}
+
+%\name{Anjali Goswami}
+%
+%\personalinfo{%
+  % Not all of these are required!
+%  \email{anjali.goswamii@outlook.com}
+%  \phone{(+91) 6206942551}
+%  \linkedin{anjaligoswami20}
+%  \github{anjaligoswami}
+%  \faTwitter{anjaligoswamiii}
+%
+%}
+\begin{center}
+	\textbf {\Huge \color{Black}\namefont Grawish Sachdeva}	\\
+	\vspace{5pt} 
+	\Large \texttt{\href{tel:+9266493132}{{\faPhone* \textbf{+919266493132}}}} \hspace{-5pt}
+	\hspace{10pt}  \texttt{\href{mailto:grawish@outlook.com}{{\faEnvelope \hspace{1pt} \textbf{grawish@outlook.co}m}}} \hspace{2pt}
+	\hspace{10pt}
+	\texttt{\href{https://github.com/grawish}{{\faGithub \hspace{2pt} \textbf{grawish}}}}
+	\hspace{10pt}  \texttt{\href{https://youtube.com/grawish}{{\faYoutube \hspace{0pt} \textbf{grawish}}}} \\
+	\vspace{5pt}
+	\hspace{10pt}  \texttt{\href{https://linkedin.com/in/grawish}{{\faLinkedin \hspace{-1pt} \textbf{grawish}}}}
+	\hspace{10pt}
+	\texttt{\href{https://codepen.io/grawish}{{\faCodepen \hspace{1pt} \textbf{grawish}}}}
+	\hspace{10pt}
+	\faGitlab \texttt{\href{https://gitlab.com/grawish}{{\hspace{1pt} \textbf{grawish}}}}
+	\vspace{5pt}
+\end{center}
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+% dth ratio to 6:4.
+\columnratio{0.40}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+
+\cvsection{SKILLS}
+\begin{itemize}
+	\item \textbf{\textcolor{black}{Programming Languages}}: \\ Python, JavaScript, CSS, Bash, PHP.
+	\vspace{-3pt}
+
+	\divider
+	\vspace{-5pt}	
+	\item \textbf{\textcolor{black}{Technologies and Frameworks}}: \\ React, Node.js, HTML, Markdown, Redis, Git, Django, Arduino, Bootstrap, Expressjs, MySQL, postgreSql, Selenium.
+	\vspace{-3pt}
+	
+	\divider
+	\vspace{-5pt}	
+	\item \textbf{\textcolor{black}{Platforms}}: \\ Notion, Github, Canva, Figma, Arduino.
+	
+	\vspace{-3pt}
+	
+	\divider
+	\vspace{-5pt}	
+	
+	\item \textbf{\textcolor{Black}{Tools:}} \\ Vim, PyCharm, VScode,  Github Desktop, Webstorm, Postman, Arduino.
+	
+	\vspace{-3pt}
+
+	\divider
+	\vspace{-5pt}	
+	
+	\item \textbf{\textcolor{black}{Operating Systems:}} \\ Linux (Arch, Debian, Fedora, Ubuntu, Kali), Windows (10, 8.1, 8, 7, XP).
+	
+	\vspace{-3pt}
+
+	\divider
+	\vspace{-5pt}	
+	
+	
+	\item \textbf{\textcolor{black}{Interpersonal Skills:}} Leadership, Analysis, English Communication, Writing, Time Management, Project Management.
+	
+	
+\end{itemize}
+
+
+% \cvsection{Experience}
+% \cvsection{Projects}
+
+\cvsection{ACHIEVEMENTS}
+\begin{itemize}
+\item Won Hackathon 1 \href{https://devsnest.in}{{\textbf{@Devsnest\textcolor{LightGrey}{{\scriptsize\faExternalLink*}}}}} - \textbf{Team Rank 1}
+\vspace{-5pt}
+
+\divider
+\vspace{-5pt}
+\item Won Hackathon 2 \href{https://devsnest.in}{{\textbf{@Devsnest\textcolor{LightGrey}{{\scriptsize\faExternalLink*}}}}} - \textbf{Team Rank 1}
+\vspace{-5pt}
+
+\divider
+\vspace{-5pt}
+\item Won Hackathon 4 \href{https://devsnest.in}{{\textbf{@Devsnest\textcolor{LightGrey}{{\scriptsize\faExternalLink*}}}}} - \textbf{Team Rank 1}
+
+ \vspace{-5pt}
+ 
+ \divider
+ \vspace{-5pt}
+\item Completed \href{https://overthewire.org/wargames/bandit/}{{\textbf{Bandit OverTheWire \textcolor{LightGrey}{{\scriptsize \faExternalLink*}}}}} in 36 hours.
+
+\vspace{-5pt}
+
+
+\end{itemize}
+
+\cvsection{Education}
+
+\cvevent{BCA (Bachelor of Computer Applications)} {\href{https://www.ignou.ac.in/}{\textcolor{Black}{{\textbf{Indira Gandhi National Open University}}}}}{2018 - 2021}{Delhi}
+\cvevent{Lower, Middle and High School} {\href{https://www.remalpublicschool.in/}{\textcolor{Black}{{\textbf{Remal Public School}}}}}{2006 - 2018}{Delhi}
+
+\cvsection{Interests}
+\begin{itemize}
+	\item Open Source
+	\item Linux
+	\item Windows
+	\item Operating system concepts
+\end{itemize}
+
+\switchcolumn
+
+
+%\vspace{4pt}
+\cvsection{Projects}
+\cvevent{\textbf{\href[pdfnewwindow=true]{https://untitled-team-101.github.io/sudoku}{\textcolor{Black}{\textbf{Sudoku \footnotesize\faExternalLink*}}}}}{}{}{}
+\vspace{-5pt}
+\begin{itemize}
+\item Sudoku is a logic-based, combinatorial number-placement puzzle.
+\item Languages and Technology: JavaScript, CSS, JSX, ReactJS, HTML.
+\end{itemize}
+\vspace{5pt}
+
+\cvevent{\textbf{\href{https://untitled-team-101.github.io/2048}{\textcolor{Black}{\textbf{2048 Game \footnotesize \faExternalLink*}}}}}{}{}{}
+\vspace{-5pt}
+\begin{itemize}
+\item 2048 is a single-player sliding tile puzzle video game
+% \item User can upload their own recipes and bookmark them.
+% \item User can customize ingredients according to the servings.
+\item Languages and Technology: JavaScript, CSS, JSX, ReactJS, HTML.
+\end{itemize}
+\vspace{5pt}
+\cvevent{\textbf{\href{https://untitled-team-101.github.io/Whiteboard/}{\textcolor{black}{\textbf{WhiteBoard \footnotesize \faExternalLink*}}}}}{}{}{}
+\vspace{-5pt}
+\begin{itemize}
+\item  A simple tool to manage daily problems.
+\item Languages and Technology: HTML Canvas, CSS3 and JavaScript
+\end{itemize}
+\vspace{5pt}
+\cvevent{\textbf{\href{https://untitled-team-101.github.io/Bricks-Breaker}{\textcolor{black}{\textbf{Bricks Breaker Game\faExternalLink*}}}}}{}{}{}
+\begin{itemize}
+\item Bricks Breaker Game made including a story and music.
+\item Languages and Technology: JavaScript, CSS, HTML.
+\end{itemize}
+\vspace{5pt}
+\cvevent{\textbf{\href{https://github.com/grawish/Water-Level-Using-UltraSonic-Sensor}{\textcolor{black}{\textbf{Water Level indicator \faExternalLink*}}}}}{}{}{}
+\begin{itemize}
+	\item Indicate water level using ultra sonic sensor
+	\item Languages and Technology: C++ and Arduino.
+\end{itemize}
+\vspace{5pt}
+\cvevent{\textbf{\href{https://grawish.github.io/ios-simulator-react/build/}{\textcolor{black}{\textbf{IOS Simulator \faExternalLink*}}}}}{}{}{}
+\begin{itemize}
+	\item IOS 13 Simulator
+	\item Languages and Technology: React and JavaScript.
+\end{itemize}
+\vspace{10pt}
+\begin{multicols}{2}
+	[
+	\Large{\textbf{Mini Projects}}
+	\vspace{-20pt}
+	]
+	\normalsize
+	\begin{itemize}
+		\item \href{https://github.com/grawish/Leetcode_Selenium}{Leetcode Selenium Checker \faExternalLink*}
+		\item \href{https://github.com/grawish/Blogg-er}{Blogg-er \faExternalLink*}
+		\item \href{https://github.com/grawish/cra-by-goblin}{cra-by-goblin \faExternalLink*}
+		\item \href{https://github.com/grawish/Bulk-File-Renamer-windows}{Bulk File Renamer \faExternalLink*}
+		\item \href{https://github.com/grawish/macecartblogekkoshishdjango}{My Awesome Cart \faExternalLink*}
+		\item \href{https://github.com/grawish/kbc}{KBC \faExternalLink*}
+		\item \href{https://github.com/grawish/whatsapp-web-clone}{Whatsapp Web Clone \faExternalLink*}
+		\item \href{https://github.com/grawish/Syphen_Website_frontend}{syphentech.com \faExternalLink*}
+
+		
+	\end{itemize}
+\end{multicols}
+
+
+%\cvsection{Experience}
+%\cvevent{\textbf{Freelancer}}{}{August, 2019 -- Present}{}
+%\begin{itemize}
+%	\item Various freelancing projects
+%\end{itemize}
+
+\cvsection{Volunteering}
+
+\cvevent{Moderator}{\href{https://devsnest.in}{\textcolor{Black}{{\textbf{ Devsnest}}}} }{March, 2021 -- Present}{}
+\begin{itemize}
+\item Give new-comers an introduction session on what devsnest is and what peer learning is.
+\item Solve queries regarding Devsnest.
+\item Host session in which industry experts come to talk about their fields.
+\item Manage different tasks and maintain discipline in server.
+\end{itemize}
+
+% \divider
+
+% \divider
+
+% \divider
+
+
+\cvsection{Languages}
+
+\begin{itemize}
+	\item English - Proficient
+	\item Hindi - Mother Tongue
+\end{itemize}
+
+
+% \cvsection{INTERESTS}
+% \begin{itemize}
+%      \item \textbf{\textcolor{LightGrey}{Open source}} 
+%      \item \textbf{\textcolor{LightGrey}{Web Development}} 
+%      \item \textbf{\textcolor{LightGrey}{Competetive Programming}}  \item \textbf{\textcolor{LightGrey}{Git}} \item\textbf{\textcolor{LightGrey}{Github}} 
+%      \item \textbf{\textcolor{LightGrey}{Linux}} 
+%      \item \textbf{\textcolor{LightGrey}{Graphics Designing}}
+% \end{itemize}
+\end{paracol}
+\end{document}
