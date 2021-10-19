@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.14)  19 OCT 2021 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.14)  19 OCT 2021 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1411,12 +1411,12 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 263.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 297.
+(Font)              <7> on input line 298.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 297.
+(Font)              <5> on input line 298.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 297.
+(Font)              scaled to size 7.0pt on input line 298.
  [1
 
 ] (./main.aux)
@@ -1448,7 +1448,7 @@ ublic/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/typoland/lato/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/goo
 gle/roboto/RobotoSlab-Bold.pfb>
-Output written on main.pdf (1 page, 155135 bytes).
+Output written on main.pdf (1 page, 155160 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
