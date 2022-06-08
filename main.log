@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.2)  3 MAY 2022 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.2)  4 MAY 2022 04:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1315,7 +1315,7 @@ LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
 (Font)              `T1/RobotoSlab-TLF/bold/n' on input line 79.
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--79
- [][]\T1/RobotoSlab-TLF/bold/n/24.88 Grawish Sachdeva[] 
+ [][][]\T1/RobotoSlab-TLF/bold/n/24.88 Grawish Sachdeva[][] 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
@@ -1351,11 +1351,6 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <12> not
 available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
 n input line 85.
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--92
-  
- []
-
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 104.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
@@ -1368,6 +1363,7 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 106.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
 nput line 106.
+
 (/opt/texlive/2022/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
 ine 108.
@@ -1378,32 +1374,26 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 108.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 233.
+(Font)              scaled to size 8.0pt on input line 234.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 233.
+(Font)              scaled to size 7.0pt on input line 234.
 
-Overfull \hbox (1.71194pt too wide) in paragraph at lines 233--233
+Overfull \hbox (1.71194pt too wide) in paragraph at lines 234--234
 [][][] \T1/lato-TLF/b/n/12 Url-Shortner [][][] | \T1/lato-TLF/b/n/7 Re-act, TSX
 , Azure, NodeJs, Ex-press, Se-quelize, Post-gresql [][][][]  
  []
 
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 245.
-
-Overfull \hbox (4.88736pt too wide) in paragraph at lines 251--253
-[]\T1/lato-TLF/m/n/10 Secured 1st Po-si-tion out of 14 Team par-tic-i-pated in 
-the Hackathon. 
- []
-
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 246.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 279.
+(Font)              scaled to size 9.0pt on input line 281.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 330.
+(Font)              <7> on input line 333.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 330.
+(Font)              <5> on input line 333.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 330.
+(Font)              scaled to size 7.0pt on input line 333.
  [1
 
 ] (./main.aux)
@@ -1416,7 +1406,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  40717 strings out of 478305
  802865 string characters out of 5821802
- 1523673 words of memory out of 5000000
+ 1526674 words of memory out of 5000000
  58218 multiletter control sequences out of 15000+600000
  731560 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1436,9 +1426,9 @@ to/Lato-Bold.pfb></opt/texlive/2022/texmf-dist/fonts/type1/typoland/lato/Lato-R
 egular.pfb></opt/texlive/2022/texmf-dist/fonts/type1/google/roboto/RobotoSlab-B
 old.pfb></opt/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
 
-Output written on main.pdf (1 page, 173732 bytes).
+Output written on main.pdf (1 page, 175256 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
